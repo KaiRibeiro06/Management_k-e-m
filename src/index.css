@@ -1,0 +1,76 @@
+@import "bootstrap-icons/font/bootstrap-icons.css";
+@import "bootstrap/dist/css/bootstrap.min.css";
+@import url('https://fonts.googleapis.com/css2?family=Iosevka+Charon:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --rosa-1:#E0218A;
+    --rosa-2:#FF69B4;
+}
+
+.text-rosa {
+  color: var(--rosa-1) !important;
+}
+
+.text-rosa-2 {
+  color: var(--rosa-2) !important;
+}
+
+.bg-rosa {
+  background-color: var(--rosa-2) !important;
+}
+
+.bg-rosa-2 {
+  background-color: var(--rosa-1) !important;
+}
+
+.border-rosa {
+  border-color: var(--rosa-1) !important;
+}
+
+.iosevka-charon-light {
+  font-family: "Iosevka Charon", monospace;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.iosevka-charon-regular {
+  font-family: "Iosevka Charon", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.iosevka-charon-medium {
+  font-family: "Iosevka Charon", monospace;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.iosevka-charon-bold {
+  font-family: "Iosevka Charon", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.iosevka-charon-light-italic {
+  font-family: "Iosevka Charon", monospace;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.iosevka-charon-regular-italic {
+  font-family: "Iosevka Charon", monospace;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.iosevka-charon-medium-italic {
+  font-family: "Iosevka Charon", monospace;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.iosevka-charon-bold-italic {
+  font-family: "Iosevka Charon", monospace;
+  font-weight: 700;
+  font-style: italic;
+}
