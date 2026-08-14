@@ -5,10 +5,17 @@
 :root{
     --rosa-1:#E0218A;
     --rosa-2:#FF69B4;
+    --branco:#FFFFFF;
 }
 
 .text-rosa {
   color: var(--rosa-1) !important;
+}
+
+.btn-buscar{
+  color: var(--rosa-1) !important;
+  border-color: var(--rosa-1) !important;
+
 }
 
 .text-rosa-2 {
