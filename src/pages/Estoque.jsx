@@ -18,46 +18,24 @@ function Estoque() {
                     <button className="btn btn-buscar" type="submit">Buscar</button>
                 </div>
 
-                <div className="produtos border border-rosa border-2 rounded p-4 mt-4">
+            <div className="table-card border border-rosa border-2 rounded p-4 mt-4">
+            <div className="card-head d-flex justify-content-between align-items-center border-bottom border-1 border-rosa pb-2 mt-4">
+                <h2>Produtos</h2>
+                    <div className="d-flex gap-2 flex-wrap ">
+                        <button type="button" className="filter-pill active btn btn-outline rounded-3 btn btn-sm btn-buscar rounded-5">Todos <span>184</span></button>
+                        <button type="button" className="filter-pill border border-rosa rounded-3 btn btn-sm btn-buscar rounded-5">Ok <span>172</span></button>
+                        <button type="button" className="filter-pill border border-rosa rounded-3 btn btn-sm btn-buscar rounded-5">Repor <span>9</span></button>
+                        <button type="button" className="filter-pill border border-rosa rounded-3 btn btn-sm btn-buscar rounded-5">Em falta <span>3</span></button>
+                    </div>
 
-                    <table className="table table-striped mt-4 border-rosa">
-                        <thead className="bg-rosa text-white">
-                            <tr>
-                                <th scope="col"><button className="btn btn-sm btn-buscar rounded-5">Todos <span>(10)</span></button></th> 
-                                <th scope="col">Produto</th>
-                                <th scope="col">Quantidade</th>
-                                <th scope="col">Imagem</th>
-                            </tr>
-                        </thead>
-                        <tbody> 
-                            <tr>
-                                <td>001</td>
-                                <td>Produto 1</td>
-                                <td>10</td>         
-                                <td>
-                                    <img src="https://via.placeholder.com/50" alt="Produto 1" />
-                                </td>       
-                            </tr>
-                            <tr>
-                                <td>002</td>
-                                <td>Produto 2</td>  
-                                <td>5</td>
-                                <td>
-                                    <img src="https://via.placeholder.com/50" alt="Produto 2" />
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>003</td>    
-                                <td>Produto 3</td>
-                                <td>8</td>
-                                <td>
-                                <img src="https://via.placeholder.com/50" alt="Produto 3" />
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
+                    <div className="">
 
-                </div>
+                    </div>
+            </div>
+
+            
+            </div>
+               
            
         </div>
     )

@@ -12,11 +12,17 @@
   color: var(--rosa-1) !important;
 }
 
+
 .btn-buscar{
   color: var(--rosa-1) !important;
   border-color: var(--rosa-1) !important;
 
 }
+
+.btn-outline-rosa{
+    color: var(--branco) !important;
+    background-color: var(--rosa-1) !important;
+  }
 
 .text-rosa-2 {
   color: var(--rosa-2) !important;
